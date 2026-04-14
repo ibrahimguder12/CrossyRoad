@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Oyun</title>
+</head>
+<body>
+  <h1>Mini Oyun</h1>
+  <p>Butona tıkladıkça skorun artacak!</p>
+  
+  <button onclick="puan++ ; document.getElementById('skor').innerText = puan;">
+    Tıkla!
+  </button>
+  
+  <p>Skor: <span id="skor">0</span></p>
+  
+  <script>
+    let puan = 0;
+  </script>
+</body>
+</html>
